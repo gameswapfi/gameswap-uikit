@@ -16,9 +16,9 @@ const stepGuard = (step: number) => {
   return step;
 };
 
-const Progress: React.FC<ProgressProps> = ({ primaryStep = 0, secondaryStep = null, showgameyProgress = false }) => (
+const Progress: React.FC<ProgressProps> = ({ primaryStep = 0, secondaryStep = null, showStonkProgress = false }) => (
   <StyledProgress>
-    {showgameyProgress && (
+    {showStonkProgress && (
       <StonkProgressWrapper style={{ left: `${stepGuard(primaryStep)}%` }}>
         <ProgressStonk />
       </StonkProgressWrapper>

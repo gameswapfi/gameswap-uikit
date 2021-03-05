@@ -26,7 +26,7 @@ const gameingIcon = styled(Icon)`
 
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => (
     <Container>
-      <gameingIcon width={`${size * 0.5}px`} />
+      <Icon width={`${size * 0.5}px`} />
     </Container>
   );
 
