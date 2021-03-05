@@ -2302,9 +2302,9 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@saltswap/eslint-config-salt@1.0.0":
+"@gameswapfinance/eslint-config-game@1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@saltswap/eslint-config-salt/-/eslint-config-salt-1.0.0.tgz#cc004c324f7c8a5ea1000b4e297f7014d00d7fe8"
+  resolved "https://registry.yarnpkg.com/@gameswapfinance/eslint-config-game/-/eslint-config-game-1.0.0.tgz#cc004c324f7c8a5ea1000b4e297f7014d00d7fe8"
   integrity sha512-OwrY2azm3ICCuulxBfG1QBGYyd4uxsWzU1imMVzjmWw9rNiVPX0Rb8WBlfNRkI/ZxEH37NWQ4aTgnrI4jOkd4Q==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.2.0"
@@ -11851,7 +11851,7 @@ react@^17.0.1:
 reactcss@^1.2.0:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/reactcss/-/reactcss-1.2.3.tgz#c00013875e557b1cf0dfd9a368a1c3dab3b548dd"
-  integrity sha512-KiwVUcFu1RErkI97ywr8nvx8dNOpT03rbnma0SSalTYjkrPYaEajR4a/MRt6DZ46K6arDRbWMNHF+xH7G7n/8A==
+  integrity sha512-KiwVUcFu1RErkI97ywr8nvx8dNOpT03rbnma0SgameYjkrPYaEajR4a/MRt6DZ46K6arDRbWMNHF+xH7G7n/8A==
   dependencies:
     lodash "^4.0.1"
 

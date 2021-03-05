@@ -1,5 +1,5 @@
 {
-  "extends": "@saltswap/eslint-config-salt",
+  "extends": "@gameswapfinance/eslint-config-game",
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",

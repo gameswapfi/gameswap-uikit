@@ -1,14 +1,14 @@
 {
-  "name": "@saltswap/uikit",
+  "name": "@gameswapfinance/uikit",
   "version": "1.2.21",
-  "description": "Set of UI components for SaltSwap projects",
+  "description": "Set of UI components for GameSwap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/saltswap/saltswap-uikit",
+  "repository": "https://github.com/gameswapfinance/gameswap-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
@@ -35,7 +35,7 @@
     "@babel/preset-env": "^7.12.16",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@saltswap/eslint-config-salt": "1.0.0",
+    "@gameswapfinance/eslint-config-game": "1.0.0",
     "@rollup/plugin-typescript": "^8.2.0",
     "@storybook/addon-a11y": "^6.1.18",
     "@storybook/addon-actions": "^6.1.18",

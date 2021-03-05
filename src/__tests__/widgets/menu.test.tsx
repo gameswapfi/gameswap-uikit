@@ -73,7 +73,7 @@ it("renders correctly", () => {
               </svg>
             </button>
             <a
-              aria-label="SaltSwap home page"
+              aria-label="GameSwap home page"
               class="sc-jSgupP jRnhKc"
               href="/"
             >

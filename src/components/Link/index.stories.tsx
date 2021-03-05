@@ -1,5 +1,5 @@
 import React from "react";
-import { SaltIcon } from "../Svg";
+import { gameIcon } from "../Svg";
 import { Link, LinkExternal } from "./index";
 
 export default {
@@ -37,7 +37,7 @@ export const Default: React.FC = () => (
       <div>
         <Link href="/">
           With icon
-          <SaltIcon />
+          <GameIcon />
         </Link>
       </div>
       <div>
