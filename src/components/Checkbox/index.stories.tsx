@@ -7,7 +7,8 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => (
+export const Default: React.FC = () => {
+  return (
     <>
       <div style={{ marginBottom: "32px" }}>
         <Checkbox />
@@ -17,3 +18,4 @@ export const Default: React.FC = () => (
       </div>
     </>
   );
+};

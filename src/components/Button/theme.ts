@@ -10,6 +10,8 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.primaryBright,
     border: 0,
     borderColorHover: "currentColor",
+    boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
+    boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
     color: "#FFFFFF",
   },
   [SECONDARY]: {
@@ -18,6 +20,8 @@ export const light: ButtonTheme = {
     backgroundHover: "transparent",
     border: `2px solid ${lightColors.primary}`,
     borderColorHover: lightColors.primaryBright,
+    boxShadow: "none",
+    boxShadowActive: "none",
     color: lightColors.primary,
   },
   [TERTIARY]: {
@@ -26,6 +30,8 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
+    boxShadow: "none",
+    boxShadowActive: "none",
     color: lightColors.primary,
   },
   [TEXT]: {
@@ -34,14 +40,18 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
+    boxShadow: "none",
+    boxShadowActive: "none",
     color: lightColors.primary,
   },
   [DANGER]: {
     background: lightColors.failure,
-    backgroundActive: "#ff6659", // darkten 10%
-    backgroundHover: "#ff7961", // lighten 10%
+    backgroundActive: "#D43285", // darkten 10%
+    backgroundHover: "#FF65B8", // lighten 10%
     border: 0,
     borderColorHover: "currentColor",
+    boxShadow: "none",
+    boxShadowActive: "none",
     color: "#FFFFFF",
   },
   [SUBTLE]: {
@@ -50,6 +60,8 @@ export const light: ButtonTheme = {
     backgroundHover: `${lightColors.textSubtle}B3`, // 85% opacity
     border: 0,
     borderColorHover: "currentColor",
+    boxShadow: "none",
+    boxShadowActive: "none",
     color: "#FFFFFF",
   },
   [SUCCESS]: {
@@ -58,6 +70,8 @@ export const light: ButtonTheme = {
     backgroundHover: `${lightColors.success}B3`, // 85% opacity
     border: 0,
     borderColorHover: "currentColor",
+    boxShadow: "none",
+    boxShadowActive: "none",
     color: "#FFFFFF",
   },
 };

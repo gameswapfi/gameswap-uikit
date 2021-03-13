@@ -1,5 +1,5 @@
 {
-  "extends": "@gameswapfinance/eslint-config-game",
+  "extends": "@pancakeswap-libs/eslint-config-pancake",
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",

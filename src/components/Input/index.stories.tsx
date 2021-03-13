@@ -21,7 +21,8 @@ export default {
   argTypes: {},
 } as Meta;
 
-export const Default: React.FC = () => (
+export const Default: React.FC = () => {
+  return (
     <div>
       {Object.keys(scales).map((key) => (
         <>
@@ -37,3 +38,4 @@ export const Default: React.FC = () => (
       ))}
     </div>
   );
+};

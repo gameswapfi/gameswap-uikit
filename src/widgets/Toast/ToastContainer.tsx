@@ -29,7 +29,8 @@ const StyledToastContainer = styled.div`
   }
 `;
 
-const ToastContainer: React.FC<ToastContainerProps> = ({ toasts, onRemove, ttl = 6000, stackSpacing = 24 }) => (
+const ToastContainer: React.FC<ToastContainerProps> = ({ toasts, onRemove, ttl = 6000, stackSpacing = 24 }) => {
+  return (
     <StyledToastContainer>
       <TransitionGroup>
         {toasts.map((toast, index) => {
@@ -43,5 +44,6 @@ const ToastContainer: React.FC<ToastContainerProps> = ({ toasts, onRemove, ttl =
       </TransitionGroup>
     </StyledToastContainer>
   );
+};
 
 export default ToastContainer;

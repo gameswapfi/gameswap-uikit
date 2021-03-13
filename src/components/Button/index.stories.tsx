@@ -22,68 +22,72 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => (
-  <>
-    {Object.values(variants).map((variant) => (
-      <Row key={variant}>
-        <Button variant={variant}>{capitalize(variant)}</Button>
-        <Button variant={variant} disabled>
-          Disabled
+export const Default: React.FC = () => {
+  return (
+    <>
+      {Object.values(variants).map((variant) => (
+        <Row key={variant}>
+          <Button variant={variant}>{capitalize(variant)}</Button>
+          <Button variant={variant} disabled>
+            Disabled
+          </Button>
+          <Button variant={variant} size="sm">
+            Small
+          </Button>
+        </Row>
+      ))}
+    </>
+  );
+};
+
+export const Variants: React.FC = () => {
+  return (
+    <BrowserRouter>
+      <Row>
+        <Button as="a" href="https://pancakeswap.finance" target="_blank" rel="noreferrer">
+          As an anchor
         </Button>
-        <Button variant={variant} size="sm">
-          Small
+        <Button as={Link} to="/router-link" variant="secondary">
+          As an React Router link
+        </Button>
+        <Button as="a" href="https://pancakeswap.finance" disabled>
+          As an anchor (disabled)
         </Button>
       </Row>
-    ))}
-  </>
-);
-
-export const Variants: React.FC = () => (
-  <BrowserRouter>
-    <Row>
-      <Button as="a" href="https://gameswap.finance" target="_blank" rel="noreferrer">
-        As an anchor
-      </Button>
-      <Button as={Link} to="/router-link" variant="secondary">
-        As an React Router link
-      </Button>
-      <Button as="a" href="https://gameswap.finance" disabled>
-        As an anchor (disabled)
-      </Button>
-    </Row>
-    <Row>
-      <Button fullWidth>Full size</Button>
-    </Row>
-    <Row>
-      <Button isLoading endIcon={<AutoRenewIcon spin color="currentColor" />}>
-        Approving loading
-      </Button>
-      <Button isLoading variant="success">
-        Approving
-      </Button>
-    </Row>
-    <Row>
-      <Button startIcon={<LogoIcon />}>Start Icon</Button>
-      <Button endIcon={<LogoIcon />}>End Icon</Button>
-      <Button startIcon={<LogoIcon />} endIcon={<LogoIcon />}>
-        Start & End Icon
-      </Button>
-    </Row>
-    <Row>
-      <IconButton>
-        <LogoIcon />
-      </IconButton>
-      <IconButton variant="secondary">
-        <AddIcon />
-      </IconButton>
-    </Row>
-    <Row>
-      <IconButton size="sm" variant="danger">
-        <LogoIcon />
-      </IconButton>
-      <IconButton size="sm" variant="success">
-        <AddIcon />
-      </IconButton>
-    </Row>
-  </BrowserRouter>
-);
+      <Row>
+        <Button fullWidth>Full size</Button>
+      </Row>
+      <Row>
+        <Button isLoading endIcon={<AutoRenewIcon spin color="currentColor" />}>
+          Approving
+        </Button>
+        <Button isLoading variant="success">
+          Approving
+        </Button>
+      </Row>
+      <Row>
+        <Button startIcon={<LogoIcon />}>Start Icon</Button>
+        <Button endIcon={<LogoIcon />}>End Icon</Button>
+        <Button startIcon={<LogoIcon />} endIcon={<LogoIcon />}>
+          Start & End Icon
+        </Button>
+      </Row>
+      <Row>
+        <IconButton>
+          <LogoIcon />
+        </IconButton>
+        <IconButton variant="secondary">
+          <AddIcon />
+        </IconButton>
+      </Row>
+      <Row>
+        <IconButton size="sm" variant="danger">
+          <LogoIcon />
+        </IconButton>
+        <IconButton size="sm" variant="success">
+          <AddIcon />
+        </IconButton>
+      </Row>
+    </BrowserRouter>
+  );
+};

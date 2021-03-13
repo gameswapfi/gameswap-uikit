@@ -9,7 +9,8 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => (
+export const Default: React.FC = () => {
+  return (
     <div>
       <Dropdown target={<Button>Hover</Button>}>
         {[...Array(30)].map(() => (
@@ -18,8 +19,10 @@ export const Default: React.FC = () => (
       </Dropdown>
     </div>
   );
+};
 
-export const Top: React.FC = () => (
+export const Top: React.FC = () => {
+  return (
     <Flex justifyContent="space-between" style={{ marginTop: "400px" }}>
       <Dropdown position="top-right" target={<Button>Top right</Button>}>
         {[...Array(20)].map(() => (
@@ -33,3 +36,4 @@ export const Top: React.FC = () => (
       </Dropdown>
     </Flex>
   );
+};

@@ -1,5 +1,5 @@
 import React from "react";
-import { StonkIcon } from "../Svg";
+import { PancakesIcon } from "../Svg";
 import { Link, LinkExternal } from "./index";
 
 export default {
@@ -19,7 +19,8 @@ export default {
   },
 };
 
-export const Default: React.FC = () => (
+export const Default: React.FC = () => {
+  return (
     <div>
       <div>
         <Link href="/">Default</Link>
@@ -37,7 +38,7 @@ export const Default: React.FC = () => (
       <div>
         <Link href="/">
           With icon
-          <StonkIcon />
+          <PancakesIcon />
         </Link>
       </div>
       <div>
@@ -45,3 +46,4 @@ export const Default: React.FC = () => (
       </div>
     </div>
   );
+};

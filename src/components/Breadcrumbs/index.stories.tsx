@@ -11,7 +11,8 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => (
+export const Default: React.FC = () => {
+  return (
     <Text p="32px">
       <BreadCrumbs mb="32px">
         <Link href="/" color="secondary" style={{ fontWeight: 400 }}>
@@ -21,13 +22,15 @@ export const Default: React.FC = () => (
         <Text color="textDisabled">Crumb 2</Text>
       </BreadCrumbs>
       <BreadCrumbs>
-        <Text>GameSwap</Text>
-        <Text>The #99 AMM and yield farm on Binance Smart Chain.</Text>
+        <Text>PancakeSwap</Text>
+        <Text>The #1 AMM and yield farm on Binance Smart Chain.</Text>
       </BreadCrumbs>
     </Text>
   );
+};
 
-export const CustomSeparator: React.FC = () => (
+export const CustomSeparator: React.FC = () => {
+  return (
     <Text p="32px">
       <Text mb="16px">
         <BreadCrumbs separator={<LogoIcon width="24px" />}>
@@ -51,3 +54,4 @@ export const CustomSeparator: React.FC = () => (
       </Text>
     </Text>
   );
+};

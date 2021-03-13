@@ -5,45 +5,19 @@ import Toggle from "../../components/Toggle/Toggle";
 const handleChange = jest.fn();
 
 it("renders correctly", () => {
-  const { asFragment } = renderWithTheme(<Toggle checked onChange={handleChange} scale="md" />);
+  const { asFragment } = renderWithTheme(<Toggle checked onChange={handleChange} />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-dlfnbm bzxmbZ"
-        scale="md"
+        class="sc-dlfnbm bFnLMa"
       >
         <input
           checked=""
-          class="sc-gsTCUz AiLqW"
-          scale="md"
+          class="sc-gsTCUz geJjSd"
           type="checkbox"
         />
         <div
-          class="sc-bdfBwQ dtgDXM"
-          scale="md"
-        />
-      </div>
-    </DocumentFragment>
-  `);
-});
-
-it("renders correctly scale sm", () => {
-  const { asFragment } = renderWithTheme(<Toggle checked onChange={handleChange} scale="sm" />);
-  expect(asFragment()).toMatchInlineSnapshot(`
-    <DocumentFragment>
-      <div
-        class="sc-dlfnbm dvgYxv"
-        scale="sm"
-      >
-        <input
-          checked=""
-          class="sc-gsTCUz fTbcni"
-          scale="sm"
-          type="checkbox"
-        />
-        <div
-          class="sc-bdfBwQ bvsyPw"
-          scale="sm"
+          class="sc-bdfBwQ iwlTPv"
         />
       </div>
     </DocumentFragment>

@@ -19,7 +19,8 @@ export default {
   argTypes: {},
 } as Meta;
 
-export const Default: React.FC = () => (
+export const Default: React.FC = () => {
+  return (
     <div style={{ padding: "32px", width: "500px" }}>
       <Row>
         <Card>
@@ -53,8 +54,10 @@ export const Default: React.FC = () => (
       </Row>
     </div>
   );
+};
 
-export const CardHeader: React.FC = () => (
+export const CardHeader: React.FC = () => {
+  return (
     <div style={{ padding: "32px", width: "500px" }}>
       <Card>
         <UIKitCardHeader>
@@ -65,7 +68,9 @@ export const CardHeader: React.FC = () => (
       </Card>
     </div>
   );
-export const Ribbon: React.FC = () => (
+};
+export const Ribbon: React.FC = () => {
+  return (
     <div style={{ padding: "32px", width: "500px" }}>
       <Row>
         <Card ribbon={<CardRibbon text="Ribbon" />}>
@@ -90,3 +95,4 @@ export const Ribbon: React.FC = () => (
       </Row>
     </div>
   );
+};

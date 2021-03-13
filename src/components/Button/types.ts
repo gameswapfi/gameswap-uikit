@@ -42,6 +42,8 @@ export type ButtonThemeVariant = {
   backgroundHover: string;
   border: string | number;
   borderColorHover: string;
+  boxShadow: string;
+  boxShadowActive: string;
   color: string;
 };
 

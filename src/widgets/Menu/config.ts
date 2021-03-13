@@ -10,13 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.gameswap.finance",
-        icon: "ExchangeIcon",
+        href: "https://exchange.pancakeswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.gameswap.finance/#/pool",
-        icon: "LiquidityIcon",
+        href: "https://exchange.pancakeswap.finance/#/pool",
       },
     ],
   },
@@ -29,21 +27,6 @@ export const links = [
     label: "Pools",
     icon: "PoolIcon",
     href: "/syrup",
-  },
-  {
-    label: "Oceans",
-    icon: "WaveIcon",
-    href: "/syrup",
-  },
-  {
-    label: "Audit By Certik 🚧",
-    icon: "AuditIcon",
-    href: "/audit",
-  },
-  {
-    label: "Listing",
-    icon: "ListingIcon",
-    href: "/listing",
   },
   {
     label: "Lottery",
@@ -76,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://gameswap.info",
+        href: "https://pancakeswap.info",
       },
       {
         label: "Tokens",
-        href: "https://gameswap.info/tokens",
+        href: "https://pancakeswap.info/tokens",
       },
       {
         label: "Pairs",
-        href: "https://gameswap.info/pairs",
+        href: "https://pancakeswap.info/pairs",
       },
       {
         label: "Accounts",
-        href: "https://gameswap.info/accounts",
+        href: "https://pancakeswap.info/accounts",
       },
     ],
   },
@@ -110,24 +93,21 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      {
-        label: "Voting",
-        href: "https://voting.gameswap.finance",
-      },
+      // {
+      //   label: "Voting",
+      //   href: "https://voting.pancakeswap.finance",
+      // },
       {
         label: "Github",
-        href: "https://github.com/gameswap",
-        icon: "GithubIcon",
+        href: "https://github.com/goosedefi/",
       },
       {
         label: "Docs",
-        href: "https://docs.gameswap.finance",
-        icon: "GitbookIcon",
+        href: "https://goosedefi.gitbook.io/goose-finance/",
       },
       {
         label: "Blog",
-        href: "	https://medium.com/@gameswapfinance",
-        icon: "MediumIcon",
+        href: "https://goosefinance.medium.com/",
       },
     ],
   },
@@ -140,14 +120,62 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/gameswap",
+        href: "https://t.me/goosedefi",
       },
+      // {
+      //   label: "Bahasa Indonesia",
+      //   href: "https://t.me/PancakeSwapIndonesia",
+      // },
+      // {
+      //   label: "中文",
+      //   href: "https://t.me/PancakeSwap_CN",
+      // },
+      // {
+      //   label: "Tiếng Việt",
+      //   href: "https://t.me/PancakeSwapVN",
+      // },
+      // {
+      //   label: "Italiano",
+      //   href: "https://t.me/pancakeswap_ita",
+      // },
+      // {
+      //   label: "русский",
+      //   href: "https://t.me/pancakeswap_ru",
+      // },
+      // {
+      //   label: "Türkiye",
+      //   href: "https://t.me/pancakeswapturkiye",
+      // },
+      // {
+      //   label: "Português",
+      //   href: "https://t.me/PancakeSwapPortuguese",
+      // },
+      // {
+      //   label: "Español",
+      //   href: "https://t.me/PancakeswapEs",
+      // },
+      // {
+      //   label: "日本語",
+      //   href: "https://t.me/pancakeswapjp",
+      // },
+      // {
+      //   label: "Français",
+      //   href: "https://t.me/pancakeswapfr",
+      // },
+      {
+        label: "Announcements",
+        href: "https://t.me/goosefinanceann",
+      },
+      // {
+      //   label: "Whale Alert",
+      //   href: "https://t.me/PancakeSwapWhales",
+      // },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/gameswap",
+    href: "https://twitter.com/FinanceGoose",
   },
 ];
 
